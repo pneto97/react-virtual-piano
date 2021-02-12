@@ -1,0 +1,51 @@
+.piano-container{
+  user-select: none;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding: 0px;
+  /* border-style: solid; */
+  box-sizing: border-box;
+}
+
+.white-key{
+  background-color: #FFFFFF;
+  border-color: #000000;
+  display: inline-block;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px 0px 3px 3px;
+  border-style: solid;
+  border-width: 1px;
+  border-left: none;
+  vertical-align: top;
+  z-index: 0;
+  box-sizing: inherit;
+  box-shadow: 0px 2px 2px 0px #00000035;
+}
+
+.white-key:first-of-type {
+  border-left: solid 1px;
+}
+
+.black-key{
+  background-color: black;
+  border-color: black;
+  display: inline-block;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0px 0px 2px 2px;
+  z-index: 1;
+  box-sizing: inherit;
+  box-shadow: 0px 2px 2px 0px #00000035;
+}
+
+.key-pressed{
+  background-color: #00ff00;
+  box-shadow: none;
+  transform: translateY(2px);
+}

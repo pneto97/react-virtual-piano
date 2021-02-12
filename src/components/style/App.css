@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+html{
+  box-sizing: border-box;
+  /* 1rem = 10px, 10px/16px = 62.5% */
+  /* font-size: 62.5%;  */
+}
+
+body{
+  background-color: rgb(212, 228, 215);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h1{
+  font-weight: 300;
+}
+
+select{
+  border-radius: 8px;
+  background-color: white;
+  padding: 3%;
+}
+
+select:focus{
+  outline:none;
+}
