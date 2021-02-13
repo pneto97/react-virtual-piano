@@ -6,6 +6,7 @@ A small web application that allows you to play an interactive piano. You can ch
 
 ## Running
 ```
+npm install
 npm start
 ```
 
