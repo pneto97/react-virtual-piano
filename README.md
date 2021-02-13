@@ -12,9 +12,8 @@ npm start
 
 ## Some Goals for this project
 
-* mobile support
-* improve the UI
-* fixing that slow transition when changing the instrument
+* Adding mobile support
+* Improving the UI
 
 ## Libraries I used
 
