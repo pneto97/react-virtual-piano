@@ -14,6 +14,7 @@ npm start
 
 * Adding mobile support
 * Improving the UI
+* Allowing input through hotkeys
 
 ## Libraries I used
 
